@@ -14,7 +14,14 @@ const adminRoutes = require("./routes/admin.routes");
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:3000",
+    "https://letterflow.vercel.app"
+  ],
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Routes
