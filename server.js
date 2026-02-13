@@ -17,7 +17,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://letterflow.vercel.app"
+    "https://letterflow-frontend-2.vercel.app"
   ],
   credentials: true
 }));
