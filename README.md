@@ -4,38 +4,58 @@ Live Demo: https://letterflow-frontend-2.vercel.app/
 
 👤 User Features
 
-. JWT Authentication (Signup/Login)
+. JWT Authentication (Signup/Login)  
+
 . Write anonymous letters
+
 . Add delivery address
+
 . Preview letter before payment
+
 . Secure payment with Razorpay
+
 . Track order status
+
 . Order history dashboard
 
 🛠 Admin Features
 
 . Admin dashboard
+
 . Update order status (pending → shipped → delivered)
+
 . View all users' orders
 
 
 🧱 Tech Stack
+
 Frontend
 
 React.js
+
 React Router
+
 Axios
+
 Tailwind CSS
+
 Vercel (Deployment)
+
 
 Backend
 
 Node.js
+
 Express.js
+
 MongoDB Atlas
+
 Mongoose
+
 JWT Authentication
+
 Razorpay Payment Gateway
+
 Render (Deployment)
 
 🛠 Installation & Setup
@@ -43,6 +63,7 @@ Render (Deployment)
 1️⃣ Clone the repository
 
 git clone https://github.com/Shivammaddheshiyaa/letterflow-frontend
+
 git clone https://github.com/Shivammaddheshiyaa/LetterFlow-backend
 
 ⚙️ Backend Setup
