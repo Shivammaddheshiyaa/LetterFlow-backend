@@ -1,69 +1,54 @@
-Live Demo: https://letterflow-frontend-2.vercel.app/
+# ✉️ LetterFlow — Anonymous Letter Sending Platform
 
-✨ Features
+🌐 Live Demo: https://letterflow-frontend-2.vercel.app/
 
-👤 User Features
+---
 
-. JWT Authentication (Signup/Login)  
+## ✨ Features
 
-. Write anonymous letters
+### 👤 User Features
+- JWT Authentication (Signup/Login)  
+- Write anonymous letters  
+- Add delivery address  
+- Preview letter before payment  
+- Secure payment with Razorpay  
+- Track order status  
+- Order history dashboard  
 
-. Add delivery address
+### 🛠 Admin Features
+- Admin dashboard  
+- Update order status *(pending → shipped → delivered)*  
+- View all users' orders  
 
-. Preview letter before payment
+---
 
-. Secure payment with Razorpay
+## 🧱 Tech Stack
 
-. Track order status
+### 🎨 Frontend
+- React.js  
+- React Router  
+- Axios  
+- Tailwind CSS  
+- Vercel (Deployment)  
 
-. Order history dashboard
+### ⚙️ Backend
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- Mongoose  
+- JWT Authentication  
+- Razorpay Payment Gateway  
+- Render (Deployment)  
 
-🛠 Admin Features
+---
 
-. Admin dashboard
+## 🛠 Installation & Setup
 
-. Update order status (pending → shipped → delivered)
+### 1️⃣ Clone the Repositories
 
-. View all users' orders
-
-
-🧱 Tech Stack
-
-Frontend
-
-React.js
-
-React Router
-
-Axios
-
-Tailwind CSS
-
-Vercel (Deployment)
-
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB Atlas
-
-Mongoose
-
-JWT Authentication
-
-Razorpay Payment Gateway
-
-Render (Deployment)
-
-🛠 Installation & Setup
-
-1️⃣ Clone the repository
+```bash
 
 git clone https://github.com/Shivammaddheshiyaa/letterflow-frontend
-
 git clone https://github.com/Shivammaddheshiyaa/LetterFlow-backend
 
 ⚙️ Backend Setup
